@@ -6,7 +6,12 @@ This notebook demonstrates how to perform object detection using YOLOv8 on the M
 
 - Google Colab
 - Roboflow account for dataset annotation
-
+**The steps to train a YOLOv8 object detection model on custom data are:**
+1. Install YOLOv8 from pip
+2. Create a custom dataset with labelled images
+3. Export your dataset for use with YOLOv8
+4. Use the yolo command line utility to run train a model
+5. Run inference with the YOLO command line application
 ## Setup Instructions
 
 1. **Open this notebook in Google Colab**.
