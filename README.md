@@ -15,7 +15,7 @@ This notebook demonstrates how to perform object detection using YOLOv8 on the M
 4. **Annotate your dataset using Roboflow**:
    - Create a new project and upload your images.
    - Annotate the images and export the dataset in YOLO format.
-   - Upload the exported dataset to your Google Drive.
+   - After annotation and required pre-processing an API will generate automatically. The generated API will redirect to the google colab environment.
 5. **Run the remaining cells** to train the model and perform object detection.
 
 ## Usage
